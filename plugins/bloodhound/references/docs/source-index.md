@@ -30,7 +30,7 @@ Use this index before writing or adapting BloodHound queries. The repo vendors q
 ## Vendored upstream query snapshots
 
 - BloodHound Query Library: `../query-snapshots/bloodhound-query-library/queries/`
-- OpenHound GitHub saved queries: `../query-snapshots/openhound-github/saved-queries/`
+- OpenHound GitHub saved searches: `../query-snapshots/openhound-github/saved-searches/`
 - OpenHound Jamf saved searches: `../query-snapshots/openhound-jamf/saved-searches/`
 - OpenHound Okta saved searches: `../query-snapshots/openhound-okta/saved-searches/`
 - Snapshot manifest and license notice: `../query-snapshots/manifest.json`, `../query-snapshots/NOTICE.md`
@@ -39,7 +39,7 @@ Use this index before writing or adapting BloodHound queries. The repo vendors q
 
 - Curated example Cypher: `../examples/example-cypher.md`
 - Node/edge reference: `../examples/node-edge-reference.md`
-- GitHound SAML/SCIM small samples: `../examples/githound/samples/`
+- OpenHound GitHub SAML/SCIM small samples: `../examples/openhound-github/samples/`
 - JamfHound schema examples: `../examples/jamfhound/schema/`
 - JamfHound object examples: `../examples/jamfhound/objects/`
 

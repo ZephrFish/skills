@@ -1,0 +1,33 @@
+{
+  "name": "base-skill-building",
+  "version": "0.1.0",
+  "description": "Skills OS workflows for creating, requesting, submitting, and deriving reusable skills from real sessions.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "base",
+    "skill",
+    "building"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Base Skill Building",
+    "shortDescription": "Skills OS workflows for creating, requesting, submitting, and deriving reusable skills from real sessions.",
+    "longDescription": "Skills OS workflows for creating, requesting, submitting, and deriving reusable skills from real sessions.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Base Skill Building for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

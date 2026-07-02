@@ -1,0 +1,21 @@
+schema_version = "0.1"
+name = "addet"
+display_name = "Adversary Detection"
+description = "Detection-support profile for defensive graph analysis and future detection engineering workflows."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = [
+  "bloodhound",
+]
+
+[agents]
+optional = [
+  "bloodhound-analyst",
+  "researcher",
+]

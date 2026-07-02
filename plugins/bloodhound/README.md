@@ -1,6 +1,6 @@
 # BloodHound
 
-Focused workflows for BloodHound, AzureHound, GitHound/OpenHound GitHub, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, SCIM bridge analysis, saved-query adaptation, optional BloodHound MCP-assisted graph analysis, and OpenGraph extension work.
+Focused workflows for BloodHound, AzureHound, OpenHound GitHub, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, SCIM bridge analysis, saved-search adaptation, optional BloodHound MCP-assisted graph analysis, and OpenGraph extension work.
 
 ## Skills
 
@@ -8,7 +8,7 @@ Focused workflows for BloodHound, AzureHound, GitHound/OpenHound GitHub, JamfHou
 - `bloodhound-query` — shared query authoring/review workflow for BloodHound and OpenGraph graphs.
 - `bloodhound` — AD and ADCS attack-path query workflow.
 - `azurehound` — Azure/Entra ID attack-path query workflow.
-- `openhound-github` — GitHound/OpenHound GitHub OpenGraph query workflow.
+- `openhound-github` — OpenHound GitHub OpenGraph query workflow.
 - `openhound-jamf` — JamfHound/OpenHound Jamf OpenGraph query workflow.
 - `openhound-okta` — OktaHound/OpenHound Okta OpenGraph query workflow.
 - `bloodhound-opengraph` — custom OpenGraph schema, collector, and extension modeling.
@@ -20,10 +20,10 @@ Focused workflows for BloodHound, AzureHound, GitHound/OpenHound GitHub, JamfHou
 
 ## Query snapshots, examples, and references
 
-This plugin vendors upstream saved-query snapshots for offline agent use:
+This plugin vendors upstream saved-search snapshots for offline agent use:
 
 - BloodHound Query Library: `references/query-snapshots/bloodhound-query-library/queries/`
-- OpenHound GitHub saved queries: `references/query-snapshots/openhound-github/saved-queries/`
+- OpenHound GitHub saved searches: `references/query-snapshots/openhound-github/saved-searches/`
 - OpenHound Jamf saved searches: `references/query-snapshots/openhound-jamf/saved-searches/`
 - OpenHound Okta saved searches: `references/query-snapshots/openhound-okta/saved-searches/`
 
@@ -34,10 +34,10 @@ It also includes collector-aware reference material:
 - Collector source index: `references/docs/collector-source-index.md`
 - Curated example Cypher: `references/examples/example-cypher.md`
 - Node and edge reference: `references/examples/node-edge-reference.md`
-- Small GitHound SAML/SCIM examples: `references/examples/githound/samples/`
+- Small legacy OpenHound GitHub SAML/SCIM examples: `references/examples/openhound-github/samples/`
 - JamfHound schema/object examples: `references/examples/jamfhound/`
 
-Use `scripts/update-query-snapshots.py` to refresh saved-query snapshots and indexes before publishing a release. Generated indexes live under `references/query-indexes/`. Small example files are curated separately and should be refreshed intentionally from upstream collector repositories when collector schemas change.
+Use `scripts/update-query-snapshots.py` to refresh saved-search snapshots and indexes before publishing a release. Generated indexes live under `references/query-indexes/`. Small example files are curated separately and should be refreshed intentionally from upstream collector repositories when collector schemas change.
 
 ## MCP setup
 

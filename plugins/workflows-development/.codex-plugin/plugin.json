@@ -1,7 +1,7 @@
 {
   "name": "workflows-development",
   "version": "0.1.0",
-  "description": "Development scaffolding, repository hygiene, security tooling, and implementation workflows for Specter Codex.",
+  "description": "Engineering-focused repository hygiene, complex git operations, project scaffolding, and security tool proof-of-concept development workflows.",
   "author": {
     "name": "SpecterOps"
   },
@@ -17,8 +17,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Workflows Development",
-    "shortDescription": "Development scaffolding, repository hygiene, git, and security tooling workflows.",
-    "longDescription": "Focused Specter Codex workflows for repository hygiene, project scaffolding, README generation, complex git operations, and security tool proof-of-concept development.",
+    "shortDescription": "Engineering development workflows after the v2 Base split.",
+    "longDescription": "Engineering-focused repository hygiene, complex git operations, project scaffolding, and security tool proof-of-concept development workflows. Broad README generation and git preflight skills moved to Base Documentation and Base Quality.",
     "developerName": "SpecterOps",
     "category": "Productivity",
     "capabilities": [
@@ -26,10 +26,8 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Use Workflows Development to scaffold a Python utility.",
-      "Use Workflows Development before a risky git merge.",
-      "Use Workflows Development to scaffold a security utility.",
-      "Use Workflows Development to draft a README."
+      "Use Workflows Development for git cleanup, merges, and project scaffolding.",
+      "Use Workflows Development for Engineering-focused development workflows."
     ],
     "brandColor": "#00B36B",
     "composerIcon": "./assets/icon.png",

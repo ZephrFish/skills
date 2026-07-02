@@ -10,7 +10,7 @@ Use this reference before making claims about OpenGraph structured graph availab
 
 ## Operating workflow
 
-1. Identify the platform collector and generated payloads: GitHound, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, AzureHound, SharpHound, or custom collector.
+1. Identify the platform collector and generated payloads: OpenHound GitHub, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, AzureHound, SharpHound, or custom collector.
 2. Confirm the matching extension definition schema is installed. For SCIM-aware paths, confirm SCIM plus each platform schema is installed.
 3. Confirm saved queries and privilege-zone rules were imported when the assessment depends on them.
 4. Validate collection recency, collector version, schema version, and ingest status before interpreting missing nodes or edges as absent risk.

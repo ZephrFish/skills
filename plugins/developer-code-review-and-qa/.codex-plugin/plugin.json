@@ -1,0 +1,36 @@
+{
+  "name": "developer-code-review-and-qa",
+  "version": "0.1.0",
+  "description": "Developer-focused C++ review guidance and web application QA workflows for Engineering.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "developer",
+    "code",
+    "review",
+    "and",
+    "qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Developer Code Review and QA",
+    "shortDescription": "Developer review guidance and web app QA.",
+    "longDescription": "Engineering-oriented review and QA workflows. This v2 split currently contains C++ Core Guidelines support and web application QA, with a general developer code-review skill tracked as roadmap work.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Developer Code Review and QA to review this C++ change against the C++ Core Guidelines.",
+      "Use Developer Code Review and QA to smoke test this web app."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

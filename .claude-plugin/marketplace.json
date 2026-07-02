@@ -53,7 +53,7 @@
     {
       "name": "bloodhound",
       "source": "./plugins/bloodhound",
-      "description": "BloodHound, AzureHound, GitHound/JamfHound/OktaHound OpenGraph attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging.",
+      "description": "BloodHound, AzureHound, OpenHound GitHub, JamfHound/OpenHound Jamf, and OktaHound/OpenHound Okta attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging.",
       "version": "0.1.0",
       "category": "security"
     },
@@ -130,7 +130,7 @@
     {
       "name": "c2-mythic",
       "source": "./plugins/c2-mythic",
-      "description": "Mythic C2 framework implant and C2 profile development workflows with agent message protocols, payload type definitions, and listener/profile guidance.",
+      "description": "Mythic C2 framework implant, C2 profile, translation container, and MythicMCP operation workflows.",
       "version": "0.1.0",
       "category": "security"
     },

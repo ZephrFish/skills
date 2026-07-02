@@ -3,3 +3,4 @@
 - `mythic-implant-development`
 - `mythic-profiles`
 - `mythic-translation-containers`
+- `mythic-mcp`

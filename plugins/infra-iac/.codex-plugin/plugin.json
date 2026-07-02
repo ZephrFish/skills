@@ -1,0 +1,32 @@
+{
+  "name": "infra-iac",
+  "version": "0.1.0",
+  "description": "Roadmap plugin for Infrastructure as Code review, planning, and improvement workflows pending Infrastructure SME input.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "infra",
+    "iac"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Infrastructure as Code",
+    "shortDescription": "Roadmap plugin for Infrastructure as Code review, planning, and improvement workflows pending Infrastructure SME input.",
+    "longDescription": "Roadmap plugin for Infrastructure as Code review, planning, and improvement workflows pending Infrastructure SME input.",
+    "developerName": "SpecterOps",
+    "category": "Infrastructure",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Infrastructure as Code for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

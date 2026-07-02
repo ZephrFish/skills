@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planning Grill"
+  short_description: "Stress-test plans one question at a time"
+  default_prompt: "Use $planning-grill to stress-test this plan one question at a time."

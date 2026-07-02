@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch curated BloodHound/OpenGraph saved-query snapshots and regenerate indexes.
+"""Fetch curated BloodHound/OpenGraph saved-search snapshots and regenerate indexes.
 
 This intentionally uses only the Python standard library so the repository can be
 maintained without a virtualenv. It vendors upstream query files as snapshots for
@@ -36,13 +36,13 @@ SOURCES = [
     {
         "id": "openhound-github",
         "domain": "openhound-github",
-        "repo": "SpecterOps/GitHound",
+        "repo": "SpecterOps/openhound-github",
         "branch": "main",
-        "path": "saved-queries",
-        "dest": "openhound-github/saved-queries",
+        "path": "extension/saved_searches",
+        "dest": "openhound-github/saved-searches",
         "extensions": [".json"],
         "license": "Apache-2.0",
-        "upstream_url": "https://github.com/SpecterOps/GitHound/tree/main/saved-queries",
+        "upstream_url": "https://github.com/SpecterOps/openhound-github/tree/main/extension/saved_searches",
     },
     {
         "id": "openhound-jamf",
@@ -208,7 +208,7 @@ def write_index(domain: str, entries: list[dict[str, Any]], manifest: dict[str, 
     lines = [
         f"# {title}",
         "",
-        "Generated from vendored upstream saved-query snapshots. Use this file to find starting points; inspect the referenced snapshot before adapting a query.",
+        "Generated from vendored upstream saved-search snapshots. Use this file to find starting points; inspect the referenced snapshot before adapting a query.",
         "",
         f"- Generated: `{manifest['retrieved_at']}`",
         f"- Query count: `{len(entries)}`",
@@ -229,7 +229,7 @@ def write_notice(manifest: dict[str, Any]) -> None:
     lines = [
         "# Query Snapshot Notice",
         "",
-        "This directory contains vendored snapshots of upstream saved-query files for agent reference and offline query adaptation.",
+        "This directory contains vendored snapshots of upstream saved-search files for agent reference and offline query adaptation.",
         "The snapshots are not a replacement for upstream documentation; refresh them with `scripts/update-query-snapshots.py` before publishing a release.",
         "",
         "| Source | Snapshot commit | License | Upstream | Files |",

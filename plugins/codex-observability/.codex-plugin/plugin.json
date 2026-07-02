@@ -1,7 +1,7 @@
 {
   "name": "codex-observability",
   "version": "0.1.0",
-  "description": "Codex activity reporting and telemetry workflows.",
+  "description": "Deprecated v1 Codex observability plugin; skills moved to codex-agent-observability for Skills OS v2.",
   "author": {
     "name": "SpecterOps"
   },
@@ -14,8 +14,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex Observability",
-    "shortDescription": "Codex activity reporting and telemetry workflows.",
-    "longDescription": "Focused workflows for Codex session activity reports, OpenTelemetry wiring, and agent execution evidence.",
+    "shortDescription": "Deprecated; use Codex Agent Observability.",
+    "longDescription": "Deprecated v1 Codex observability plugin. The activity report and OpenTelemetry skills moved to plugins/codex-agent-observability for Skills OS v2.",
     "developerName": "SpecterOps",
     "category": "Productivity",
     "capabilities": [
@@ -23,9 +23,7 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Use Codex Observability to summarize agent activity.",
-      "Use Codex Observability to add telemetry wiring.",
-      "Use Codex Observability to inspect session evidence."
+      "Use Codex Agent Observability for Skills OS v2 observability workflows."
     ],
     "brandColor": "#8E92EB",
     "composerIcon": "./assets/icon.png",

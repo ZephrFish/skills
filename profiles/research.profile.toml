@@ -1,0 +1,36 @@
+schema_version = "0.1"
+name = "research"
+display_name = "Research"
+description = "Security research profile for BloodHound/OpenGraph, C2, payload, reverse engineering, tradecraft, and vulnerability-oriented analysis."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = [
+  "bloodhound",
+  "c2-cobaltstrike",
+  "c2-extensions",
+  "c2-mythic",
+  "vulnerability-focused-code-review",
+  "ludus",
+  "ops-adcs",
+  "ops-sccm",
+  "payloads",
+  "reverse-engineering",
+  "tradecraft-linux",
+  "tradecraft-mac",
+  "tradecraft-windows",
+]
+
+[agents]
+optional = [
+  "researcher",
+  "bloodhound-analyst",
+  "winternals",
+  "exploit-dev",
+  "poc-dev",
+]

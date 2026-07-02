@@ -1,0 +1,48 @@
+schema_version = "0.1"
+name = "adsim"
+display_name = "Adversary Simulation"
+description = "Opinionated operator profile for adversary simulation, assessment workflows, tradecraft, reporting, and lab support."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = [
+  "bloodhound",
+  "c2-cobaltstrike",
+  "c2-extensions",
+  "c2-mythic",
+  "vulnerability-focused-code-review",
+  "ludus",
+  "ops-adcs",
+  "ops-appsec",
+  "ops-infrastructure",
+  "ops-mssql",
+  "ops-reconnaissance",
+  "ops-sccm",
+  "payloads",
+  "report-drafting",
+  "report-timeline",
+  "reverse-engineering",
+  "social-engineering",
+  "tradecraft-linux",
+  "tradecraft-mac",
+  "tradecraft-windows",
+]
+
+[agents]
+optional = [
+  "bloodhound-analyst",
+  "domain-ops",
+  "internal-network-recon",
+  "osint-recon",
+  "sccm-ops",
+  "security-researcher",
+  "ssh-operator",
+  "report-writer",
+  "winternals",
+  "exploit-dev",
+]

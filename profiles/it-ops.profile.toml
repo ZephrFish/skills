@@ -1,0 +1,18 @@
+schema_version = "0.1"
+name = "it-ops"
+display_name = "IT & Operations"
+description = "IT and Operations profile; Base-only for v2 until IT/Ops stakeholders define recurring workflows."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = []
+
+[agents]
+optional = [
+  "planner",
+]

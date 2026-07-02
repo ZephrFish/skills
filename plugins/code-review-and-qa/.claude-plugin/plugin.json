@@ -1,6 +1,6 @@
 {
   "name": "code-review-and-qa",
-  "description": "Code review and web application QA workflows for Specter Codex.",
+  "description": "Deprecated v1 aggregate plugin split in Skills OS v2; use developer-code-review-and-qa and vulnerability-focused-code-review.",
   "version": "0.1.0",
   "author": {
     "name": "SpecterOps"

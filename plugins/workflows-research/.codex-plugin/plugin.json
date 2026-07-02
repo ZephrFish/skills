@@ -1,7 +1,7 @@
 {
   "name": "workflows-research",
   "version": "0.1.0",
-  "description": "Source-backed research and synthesis workflows for Specter Codex.",
+  "description": "Deprecated v1 research workflow plugin; source-research moved to base-research for Skills OS v2.",
   "author": {
     "name": "SpecterOps"
   },
@@ -15,8 +15,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Workflows Research",
-    "shortDescription": "Source-backed research, comparison, and synthesis workflows.",
-    "longDescription": "Focused research workflows for source discovery, source evaluation, comparison, and synthesis.",
+    "shortDescription": "Deprecated; use Base Research.",
+    "longDescription": "Deprecated v1 research workflow plugin. The source-research skill moved to plugins/base-research for Skills OS v2.",
     "developerName": "SpecterOps",
     "category": "Productivity",
     "capabilities": [
@@ -24,9 +24,7 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Use Workflows Research to compare current options.",
-      "Use Workflows Research to gather sources.",
-      "Use Workflows Research to summarize current practice."
+      "Use Base Research for source-research in Skills OS v2."
     ],
     "brandColor": "#8E92EB",
     "composerIcon": "./assets/icon.png",

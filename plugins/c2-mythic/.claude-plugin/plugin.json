@@ -1,6 +1,6 @@
 {
   "name": "c2-mythic",
-  "description": "Mythic C2 framework implant and C2 profile development workflows with agent message protocols, payload type definitions, and listener/profile guidance.",
+  "description": "Mythic C2 framework implant, C2 profile, translation container, and MythicMCP operation workflows with agent message protocols, payload type definitions, listener/profile guidance, and MCP-assisted tasking.",
   "version": "0.1.0",
   "author": {
     "name": "SpecterOps"

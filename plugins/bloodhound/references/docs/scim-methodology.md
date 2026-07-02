@@ -5,7 +5,7 @@ Use this reference when GitHub, Okta, Entra, Jamf, or other OpenGraph data inclu
 ## Model summary
 
 - SCIM is a schema-only OpenGraph extension. It must be installed alongside the platform schemas that produce or consume SCIM data.
-- SCIM nodes are produced by other collectors, especially GitHound and OktaHound/OpenHound Okta.
+- SCIM nodes are produced by other collectors, especially OpenHound GitHub and OktaHound/OpenHound Okta.
 - The top-level environment node is `SCIM_Organization`.
 - Node kinds: `SCIM_User`, `SCIM_Group`, `SCIM_Role`, `SCIM_Organization`.
 - Edge kinds:
@@ -19,9 +19,9 @@ Use this reference when GitHub, Okta, Entra, Jamf, or other OpenGraph data inclu
 
 1. Confirm the SCIM extension schema is installed before treating `SCIM_*` labels as structured graph data.
 2. Confirm the producing collector ran with SCIM-capable configuration and emitted SCIM payloads.
-3. Start from saved-query patterns:
-   - GitHub external identities without SCIM: `references/query-snapshots/openhound-github/saved-queries/external-identities-without-scim.json`
-   - GitHub hybrid identities: `references/query-snapshots/openhound-github/saved-queries/hybrid-identities.json`
+3. Start from saved-search patterns:
+   - GitHub external identities without SCIM: `references/query-snapshots/openhound-github/saved-searches/external-identities-without-scim.json`
+   - GitHub hybrid identities: `references/query-snapshots/openhound-github/saved-searches/hybrid-identities.json`
    - Okta SCIM apps receiving password updates: `references/query-snapshots/openhound-okta/saved-searches/scim-read-passwords.json`
    - Okta hybrid synchronization: `references/query-snapshots/openhound-okta/saved-searches/hybrid-sync.json`
 4. Identify bridge direction explicitly. Do not collapse `Okta_User -> SCIM_User -> GH_User` into a direct Okta-to-GitHub claim unless the graph contains the bridge edges.

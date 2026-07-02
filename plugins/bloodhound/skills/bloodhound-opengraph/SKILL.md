@@ -17,7 +17,7 @@ Use this skill when creating custom BloodHound schema/extensions, ingestors, or 
 
 ## Workflow
 1. Read `../../references/docs/opengraph-extension-management.md` before making schema/install/upload recommendations.
-2. Read `../../references/docs/collector-source-index.md` for GitHound, JamfHound, OktaHound, and SCIM source context.
+2. Read `../../references/docs/collector-source-index.md` for OpenHound GitHub, JamfHound, OktaHound, and SCIM source context.
 3. Inspect `../../references/examples/node-edge-reference.md` and `../../references/examples/example-cypher.md` before proposing custom labels, edges, or queries.
 4. For SCIM bridge modeling, read `../../references/docs/scim-methodology.md` and preserve `SCIM_*` labels/edges.
 5. Separate extension schema design from collector implementation, saved queries, privilege-zone rules, and data payload upload steps.

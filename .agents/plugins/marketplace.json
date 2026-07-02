@@ -291,6 +291,138 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Security"
+    },
+    {
+      "name": "base-orientation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-orientation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-planning",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-planning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-documentation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-documentation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-quality",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-quality"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-handoff",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "base-skill-building",
+      "source": {
+        "source": "local",
+        "path": "./plugins/base-skill-building"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "codex-agent-observability",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-agent-observability"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "developer-code-review-and-qa",
+      "source": {
+        "source": "local",
+        "path": "./plugins/developer-code-review-and-qa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "vulnerability-focused-code-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vulnerability-focused-code-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "infra-iac",
+      "source": {
+        "source": "local",
+        "path": "./plugins/infra-iac"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Infrastructure"
     }
   ]
 }

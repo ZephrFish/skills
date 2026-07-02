@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Request Builder"
+  short_description: "Turn missing workflows into skill requests"
+  default_prompt: "Use $skill-request-builder to turn this missing workflow into a clear skill request."

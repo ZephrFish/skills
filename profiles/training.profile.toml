@@ -1,0 +1,21 @@
+schema_version = "0.1"
+name = "training"
+display_name = "Training"
+description = "Training profile for internal course wiki scaffolding, migration, and QA workflows."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = [
+  "internal-training-course",
+]
+
+[agents]
+optional = [
+  "planner",
+  "researcher",
+]

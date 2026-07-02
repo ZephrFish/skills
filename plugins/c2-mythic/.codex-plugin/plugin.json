@@ -1,7 +1,7 @@
 {
   "name": "c2-mythic",
   "version": "0.1.0",
-  "description": "Mythic C2 framework implant and C2 profile development workflows with agent message protocols, payload type definitions, and listener/profile guidance.",
+  "description": "Mythic C2 framework implant, C2 profile, translation container, and MythicMCP operation workflows with agent message protocols, payload type definitions, listener/profile guidance, and MCP-assisted tasking.",
   "author": {
     "name": "SpecterOps"
   },
@@ -18,8 +18,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "C2 Mythic",
-    "shortDescription": "Mythic implant and C2 profile development workflows.",
-    "longDescription": "Focused workflows for building Mythic C2 framework agents and C2 profiles, including payload type definitions, agent message protocols, command implementation, C2 profile/listener development, and build workflow guidance.",
+    "shortDescription": "Mythic development and MCP operation workflows.",
+    "longDescription": "Focused workflows for building Mythic C2 framework agents, C2 profiles, and translation containers, plus MCP-assisted Mythic operations through MythicMCP for callbacks, tasks, files, payloads, C2 profile instances, and agent-specific tools.",
     "developerName": "SpecterOps",
     "category": "Security",
     "capabilities": [
@@ -29,7 +29,8 @@
     "defaultPrompt": [
       "Use C2 Mythic to build a Mythic implant.",
       "Use C2 Mythic to design Mythic agent message handling.",
-      "Use C2 Mythic to develop a Mythic C2 profile or listener."
+      "Use C2 Mythic to develop a Mythic C2 profile or listener.",
+      "Use C2 Mythic with MythicMCP to operate Mythic callbacks, tasks, files, payloads, and C2 profiles."
     ],
     "brandColor": "#00B36B",
     "composerIcon": "./assets/icon.png",

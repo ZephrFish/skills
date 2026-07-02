@@ -1,0 +1,33 @@
+{
+  "name": "codex-agent-observability",
+  "version": "0.1.0",
+  "description": "Codex and agentic workflow observability, activity reporting, evidence, and telemetry workflows.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "codex",
+    "agent",
+    "observability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Agent Observability",
+    "shortDescription": "Codex and agentic workflow observability, activity reporting, evidence, and telemetry workflows.",
+    "longDescription": "Codex and agentic workflow observability, activity reporting, evidence, and telemetry workflows.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Codex Agent Observability for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

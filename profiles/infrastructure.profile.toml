@@ -1,0 +1,19 @@
+schema_version = "0.1"
+name = "infrastructure"
+display_name = "Infrastructure"
+description = "Infrastructure Engineering profile; Base-only for v2 until Infrastructure SMEs define default plugins."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = []
+
+[agents]
+optional = [
+  "architect",
+  "planner",
+]

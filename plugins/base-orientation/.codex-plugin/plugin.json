@@ -1,0 +1,32 @@
+{
+  "name": "base-orientation",
+  "version": "0.1.0",
+  "description": "Workspace, repository, vault, and local context orientation workflows for all Skills OS users.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "base",
+    "orientation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Base Orientation",
+    "shortDescription": "Workspace, repository, vault, and local context orientation workflows for all Skills OS users.",
+    "longDescription": "Workspace, repository, vault, and local context orientation workflows for all Skills OS users.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Base Orientation for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

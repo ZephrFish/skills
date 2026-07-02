@@ -2,18 +2,18 @@
 
 Use this index to identify collector outputs, upstream examples, and local references before writing BloodHound/OpenGraph analysis guidance.
 
-## GitHound / OpenHound GitHub
+## OpenHound GitHub
 
-- Repository: https://github.com/SpecterOps/GitHound
-- Local saved queries: `references/query-snapshots/openhound-github/saved-queries/`
+- Repository: https://github.com/SpecterOps/openhound-github
+- Local saved searches: `references/query-snapshots/openhound-github/saved-searches/`
 - Local query index: `references/query-indexes/openhound-github.md`
-- Local small samples:
-  - `references/examples/githound/samples/githound_saml_O_kgDOCoV2OQ.json`
-  - `references/examples/githound/samples/githound_scim_O_kgDOCoV2OQ.json`
-- Upstream large sample, intentionally not vendored: https://github.com/SpecterOps/GitHound/blob/main/samples/githound_O_kgDOCoV2OQ.json
-- Upstream node docs: https://github.com/SpecterOps/GitHound/tree/main/Documentation/NodeDescriptions
-- Upstream edge docs: https://github.com/SpecterOps/GitHound/tree/main/Documentation/EdgeDescriptions
-- Useful upstream docs: `Documentation/Schema.md`, `Documentation/Queries.md`, `Documentation/SCIMSamlProviderComparison.md`, `model.json`, `model.mermaid`, `schema.json`, `bh-github-custom-nodes.json`.
+- Local small legacy SAML/SCIM samples:
+  - `references/examples/openhound-github/samples/openhound_github_saml_O_kgDOCoV2OQ.json`
+  - `references/examples/openhound-github/samples/openhound_github_scim_O_kgDOCoV2OQ.json`
+- Upstream saved searches: `extension/saved_searches/`
+- Upstream node docs: https://github.com/SpecterOps/openhound-github/tree/main/descriptions/nodes
+- Upstream edge docs: https://github.com/SpecterOps/openhound-github/tree/main/descriptions/edges
+- Useful upstream docs: `README.md`, `extension.yaml`, `docs/og-docs.json`, `descriptions/nodes/`, `descriptions/edges/`, `extension/privilege_zone_rules/`, and `extension/saved_searches/`.
 
 ## JamfHound / OpenHound Jamf
 

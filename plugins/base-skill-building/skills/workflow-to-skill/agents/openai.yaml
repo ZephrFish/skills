@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow To Skill"
+  short_description: "Distill sessions into reusable skills"
+  default_prompt: "Use $workflow-to-skill to turn this completed workflow into a reusable skill."

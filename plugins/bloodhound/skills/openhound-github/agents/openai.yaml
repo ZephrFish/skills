@@ -1,9 +1,9 @@
 interface:
-  display_name: "GitHound / OpenHound GitHub"
+  display_name: "OpenHound GitHub"
   short_description: "Analyze GitHub OpenGraph paths, SAML/SCIM identities, Actions, secrets, and OIDC."
   icon_small: ./assets/icon.svg
   icon_large: ./assets/icon.png
-  default_prompt: "Use $openhound-github to analyze GitHound/OpenHound GitHub organizations, repositories, teams, branch protection, Actions policy, secrets metadata, SAML/SCIM external identities, PATs, and OIDC exposure."
+  default_prompt: "Use $openhound-github to analyze OpenHound GitHub organizations, repositories, teams, branch protection, Actions policy, secrets metadata, SAML/SCIM external identities, PATs, and OIDC exposure."
   brand_color: "#991B1B"
 
 policy:

@@ -1,0 +1,26 @@
+schema_version = "0.1"
+name = "base"
+display_name = "Base"
+description = "Shared baseline profile for broadly useful AI and agentic workflows."
+status = "draft"
+
+[profile]
+inherits = []
+
+[plugins]
+required = [
+  "base-orientation",
+  "base-planning",
+  "base-research",
+  "base-documentation",
+  "base-quality",
+  "base-handoff",
+  "base-skill-building",
+  "codex-agent-observability",
+]
+
+[agents]
+optional = [
+  "planner",
+  "researcher",
+]

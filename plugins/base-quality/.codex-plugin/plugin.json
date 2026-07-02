@@ -1,0 +1,32 @@
+{
+  "name": "base-quality",
+  "version": "0.1.0",
+  "description": "General preflight, readiness, review, and quality-gate workflows for all Skills OS users.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "base",
+    "quality"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Base Quality",
+    "shortDescription": "General preflight, readiness, review, and quality-gate workflows for all Skills OS users.",
+    "longDescription": "General preflight, readiness, review, and quality-gate workflows for all Skills OS users.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Base Quality for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

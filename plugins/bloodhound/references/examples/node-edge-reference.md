@@ -1,12 +1,12 @@
 # OpenGraph Node and Edge Reference
 
-Use this compact reference to avoid inventing labels or relationship kinds. Confirm exact labels in installed schemas, saved-query snapshots, or live BloodHound schema output before running queries.
+Use this compact reference to avoid inventing labels or relationship kinds. Confirm exact labels in installed schemas, saved-search snapshots, or live BloodHound schema output before running queries.
 
-## GitHub / GitHound
+## OpenHound GitHub
 
 Key node labels:
 
-- `GH_Enterprise`, `GH_Organization`, `GH_User`, `GH_Team`, `GH_EnterpriseTeam`, `GH_Repository`
+- `GH_Organization`, `GH_User`, `GH_Team`, `GH_Repository`
 - `GH_Branch`, `GH_BranchProtectionRule`, `GH_Environment`, `GH_Workflow`
 - `GH_OrgSecret`, `GH_RepoSecret`, `GH_EnvironmentSecret`
 - `GH_OrgVariable`, `GH_RepoVariable`, `GH_EnvironmentVariable`
@@ -16,14 +16,14 @@ High-value relationship families:
 
 - Containment and membership: `GH_Contains`, `GH_MemberOf`, team/role relationships.
 - Repository control: `GH_AdminTo`, `GH_CanWriteBranch`, `GH_CanCreateBranch`, `GH_CanEditProtection`, `GH_BypassBranchProtection`.
-- Pull request / workflow risk: `GH_CanPwnRequest`, `GH_CallsWorkflow`, `GH_CanDispatchTo`, `GH_CanUseRunner`.
+- Pull request / workflow risk: `GH_CanPwnRequest`, `GH_CallsWorkflow`, `GH_WriteRepoPullRequests`, `GH_WriteRepoContents`.
 - Secret and alert exposure: `GH_CanAccess`, `GH_CanReadSecretScanningAlert`.
 - Identity bridges: `GH_CanAssumeIdentity`, external identity links, SAML links, and SCIM links through `SCIM_Provisioned`.
 
 Primary upstream docs:
 
-- GitHound node docs: https://github.com/SpecterOps/GitHound/tree/main/Documentation/NodeDescriptions
-- GitHound edge docs: https://github.com/SpecterOps/GitHound/tree/main/Documentation/EdgeDescriptions
+- OpenHound GitHub node docs: https://github.com/SpecterOps/openhound-github/tree/main/descriptions/nodes
+- OpenHound GitHub edge docs: https://github.com/SpecterOps/openhound-github/tree/main/descriptions/edges
 
 ## Jamf / JamfHound
 
@@ -83,4 +83,4 @@ Edges:
 Primary local sources:
 
 - SCIM methodology: `references/docs/scim-methodology.md`
-- Small GitHound SCIM sample: `references/examples/githound/samples/githound_scim_O_kgDOCoV2OQ.json`
+- Small OpenHound GitHub SCIM sample: `references/examples/openhound-github/samples/openhound_github_scim_O_kgDOCoV2OQ.json`

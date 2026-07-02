@@ -1,0 +1,32 @@
+{
+  "name": "base-research",
+  "version": "0.1.0",
+  "description": "Source discovery, source evaluation, claim verification, and synthesis workflows for all Skills OS users.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "base",
+    "research"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Base Research",
+    "shortDescription": "Source discovery, source evaluation, claim verification, and synthesis workflows for all Skills OS users.",
+    "longDescription": "Source discovery, source evaluation, claim verification, and synthesis workflows for all Skills OS users.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Base Research for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

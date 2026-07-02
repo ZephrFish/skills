@@ -1,12 +1,12 @@
-# OpenHound GitHub / GitHound Methodology
+# OpenHound GitHub Methodology
 
-Use for OpenHound GitHub OpenGraph analysis with GitHound-collected GitHub data.
+Use for OpenHound GitHub OpenGraph analysis with OpenHound GitHub-collected data.
 
 ## Collector context
 
-- GitHound models GitHub enterprises, organizations, users, teams, repositories, branch protections, workflows, Actions settings, secrets/variables metadata, apps, personal access tokens, and external identity relationships.
-- GitHound can emit SAML and SCIM sidecar data. Use `references/examples/githound/samples/` for small SAML/SCIM payload examples and link to the large upstream GitHound sample through `collector-source-index.md` when deeper shape inspection is needed.
-- Confirm enterprise/org/repository collection coverage before treating missing controls, users, teams, or settings as absent.
+- OpenHound GitHub models GitHub organizations, users, teams, repositories, branch protections, workflows, Actions settings, secrets/variables metadata, apps, personal access tokens, and external identity relationships.
+- Use `references/examples/openhound-github/samples/` only for small legacy SAML/SCIM payload examples when sidecar shape matters; prefer the OpenHound GitHub repository descriptions and saved searches for current schema/query shape.
+- Confirm org/repository collection coverage before treating missing controls, users, teams, or settings as absent.
 
 ## Focus areas
 
@@ -21,17 +21,17 @@ Use for OpenHound GitHub OpenGraph analysis with GitHound-collected GitHub data.
 - OpenHound GitHub labels and relationships generally use `GH_` prefixes.
 - Read `../examples/node-edge-reference.md` before inventing GitHub labels or edges.
 - Read `scim-methodology.md` before interpreting external identity or SCIM bridge paths.
-- Favor saved-query patterns for branch protection, app installations, external identities, secrets, PATs, and OIDC federation.
+- Favor saved-search patterns for branch protection, app installations, external identities, secrets, PATs, and OIDC federation.
 - Return paths for permission inheritance and tables for posture checks.
 - When describing secret risk, distinguish existence/scope metadata from cleartext secret access.
-- Confirm whether the org has enterprise, app, Actions, SAML, and SCIM collection coverage before concluding that a control is absent.
+- Confirm whether the org has app, Actions, SAML, and SCIM collection coverage before concluding that a control is absent.
 
 ## Good starting points
 
 - Query index: `../query-indexes/openhound-github.md`
-- Query snapshots: `../query-snapshots/openhound-github/saved-queries/`
+- Query snapshots: `../query-snapshots/openhound-github/saved-searches/`
 - Example Cypher: `../examples/example-cypher.md`
 - Node/edge reference: `../examples/node-edge-reference.md`
 - Collector source index: `collector-source-index.md`
 - Official OpenHound GitHub query docs: https://bloodhound.specterops.io/opengraph/extensions/github/queries
-- GitHound repository: https://github.com/SpecterOps/GitHound
+- OpenHound GitHub repository: https://github.com/SpecterOps/openhound-github

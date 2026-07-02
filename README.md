@@ -104,7 +104,7 @@ npx skills add /Users/<user>/Projects/skills --list
 |---|---:|---:|---:|---|
 | [ops-adcs](plugins/ops-adcs/README.md) | Yes | Yes | - | Active Directory Certificate Services assessment and attack-path validation workflows. |
 | [ops-appsec](plugins/ops-appsec/README.md) | Yes | Yes | - | Application and code security assessment workflows for Specter Codex. |
-| [bloodhound](plugins/bloodhound/README.md) | Yes | Yes | Manual | BloodHound, AzureHound, GitHound/JamfHound/OktaHound OpenGraph attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging. |
+| [bloodhound](plugins/bloodhound/README.md) | Yes | Yes | Manual | BloodHound, AzureHound, OpenHound GitHub, JamfHound/OpenHound Jamf, and OktaHound/OpenHound Okta attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging. |
 | [c2-cobaltstrike](plugins/c2-cobaltstrike/README.md) | Yes | Yes | - | Cobalt Strike Aggressor Script, Sleep, BOF loader, and extension workflows. |
 | [c2-extensions](plugins/c2-extensions/README.md) | Yes | Yes | - | Beacon Object File development and reusable C2 extension workflows. |
 | [code-review-and-qa](plugins/code-review-and-qa/README.md) | Yes | Yes | - | Code review and web application QA workflows for Specter Codex. |
@@ -114,7 +114,7 @@ npx skills add /Users/<user>/Projects/skills --list
 | [ops-reconnaissance](plugins/ops-reconnaissance/README.md) | Yes | Yes | - | Reconnaissance, OSINT, service enumeration, and exposure discovery workflows for Specter Codex. |
 | [ludus](plugins/ludus/README.md) | Yes | Yes | - | Ludus cyber range configuration and management skill with full API, CLI, and deployment references |
 | [ops-mssql](plugins/ops-mssql/README.md) | Yes | Yes | - | Microsoft SQL Server reconnaissance, privilege mapping, and assessment workflows. |
-| [c2-mythic](plugins/c2-mythic/README.md) | Yes | Yes | - | Mythic C2 framework implant and C2 profile development workflows. |
+| [c2-mythic](plugins/c2-mythic/README.md) | Yes | Yes | Manual | Mythic C2 framework implant, C2 profile, translation container, and MythicMCP operation workflows. |
 | [payloads](plugins/payloads/README.md) | Yes | Yes | - | Reusable Electron payload packaging, persistence, audit, and discovery workflows. |
 | [ops-infrastructure](plugins/ops-infrastructure/README.md) | Yes | Yes | - | Infrastructure operations, SSH, tunnel, firewall, and offensive IaC attack-surface workflows. |
 | [report-drafting](plugins/report-drafting/README.md) | Yes | Yes | Manual | Finding, report drafting, Ghostwriter MCP, and operation log workflows for security assessment deliverables. |
@@ -131,6 +131,14 @@ npx skills add /Users/<user>/Projects/skills --list
 
 | Skill | Plugin | Path |
 |---|---|---|
+| `planning-collab-brainstorm` | `base-planning` | [SKILL.md](plugins/base-planning/skills/planning-collab-brainstorm/SKILL.md) |
+| `planning-grill` | `base-planning` | [SKILL.md](plugins/base-planning/skills/planning-grill/SKILL.md) |
+| `source-research` | `base-research` | [SKILL.md](plugins/base-research/skills/source-research/SKILL.md) |
+| `readme-generation` | `base-documentation` | [SKILL.md](plugins/base-documentation/skills/readme-generation/SKILL.md) |
+| `git-preflight` | `base-quality` | [SKILL.md](plugins/base-quality/skills/git-preflight/SKILL.md) |
+| `skill-submission-prep` | `base-skill-building` | [SKILL.md](plugins/base-skill-building/skills/skill-submission-prep/SKILL.md) |
+| `skill-request-builder` | `base-skill-building` | [SKILL.md](plugins/base-skill-building/skills/skill-request-builder/SKILL.md) |
+| `workflow-to-skill` | `base-skill-building` | [SKILL.md](plugins/base-skill-building/skills/workflow-to-skill/SKILL.md) |
 | `secret-scan` | `ops-appsec` | [SKILL.md](plugins/ops-appsec/skills/secret-scan/SKILL.md) |
 | `security-review` | `ops-appsec` | [SKILL.md](plugins/ops-appsec/skills/security-review/SKILL.md) |
 | `webapp-review` | `ops-appsec` | [SKILL.md](plugins/ops-appsec/skills/webapp-review/SKILL.md) |
@@ -146,19 +154,17 @@ npx skills add /Users/<user>/Projects/skills --list
 | `c2-bof-development` | `c2-extensions` | [SKILL.md](plugins/c2-extensions/skills/c2-bof-development/SKILL.md) |
 | `cobalt-strike-aggressor-development` | `c2-cobaltstrike` | [SKILL.md](plugins/c2-cobaltstrike/skills/cobalt-strike-aggressor-development/SKILL.md) |
 | `cobalt-strike-aggressor-reference` | `c2-cobaltstrike` | [SKILL.md](plugins/c2-cobaltstrike/skills/cobalt-strike-aggressor-reference/SKILL.md) |
-| `code-review` | `code-review-and-qa` | [SKILL.md](plugins/code-review-and-qa/skills/code-review/SKILL.md) |
-| `cpp-core-guidelines` | `code-review-and-qa` | [SKILL.md](plugins/code-review-and-qa/skills/cpp-core-guidelines/SKILL.md) |
-| `webapp-qa` | `code-review-and-qa` | [SKILL.md](plugins/code-review-and-qa/skills/webapp-qa/SKILL.md) |
-| `codex-activity-report` | `codex-observability` | [SKILL.md](plugins/codex-observability/skills/codex-activity-report/SKILL.md) |
-| `opentelemetry-codex` | `codex-observability` | [SKILL.md](plugins/codex-observability/skills/opentelemetry-codex/SKILL.md) |
+| `code-review` | `vulnerability-focused-code-review` | [SKILL.md](plugins/vulnerability-focused-code-review/skills/code-review/SKILL.md) |
+| `cpp-core-guidelines` | `developer-code-review-and-qa` | [SKILL.md](plugins/developer-code-review-and-qa/skills/cpp-core-guidelines/SKILL.md) |
+| `webapp-qa` | `developer-code-review-and-qa` | [SKILL.md](plugins/developer-code-review-and-qa/skills/webapp-qa/SKILL.md) |
+| `codex-activity-report` | `codex-agent-observability` | [SKILL.md](plugins/codex-agent-observability/skills/codex-activity-report/SKILL.md) |
+| `opentelemetry-codex` | `codex-agent-observability` | [SKILL.md](plugins/codex-agent-observability/skills/opentelemetry-codex/SKILL.md) |
 | `course-wiki-migration-orchestrator` | `internal-training-course` | [SKILL.md](plugins/internal-training-course/skills/course-wiki-migration-orchestrator/SKILL.md) |
 | `course-wiki-stage1-scaffold` | `internal-training-course` | [SKILL.md](plugins/internal-training-course/skills/course-wiki-stage1-scaffold/SKILL.md) |
 | `course-wiki-stage2-content-migration` | `internal-training-course` | [SKILL.md](plugins/internal-training-course/skills/course-wiki-stage2-content-migration/SKILL.md) |
 | `course-wiki-stage3-qa` | `internal-training-course` | [SKILL.md](plugins/internal-training-course/skills/course-wiki-stage3-qa/SKILL.md) |
 | `git-cleanup` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/git-cleanup/SKILL.md) |
 | `git-merge` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/git-merge/SKILL.md) |
-| `git-preflight` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/git-preflight/SKILL.md) |
-| `readme-generation` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/readme-generation/SKILL.md) |
 | `scaffold-python` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/scaffold-python/SKILL.md) |
 | `scaffold-security` | `workflows-development` | [SKILL.md](plugins/workflows-development/skills/scaffold-security/SKILL.md) |
 | `osint-recon` | `ops-reconnaissance` | [SKILL.md](plugins/ops-reconnaissance/skills/osint-recon/SKILL.md) |
@@ -168,6 +174,7 @@ npx skills add /Users/<user>/Projects/skills --list
 | `mythic-implant-development` | `c2-mythic` | [SKILL.md](plugins/c2-mythic/skills/mythic-implant-development/SKILL.md) |
 | `mythic-profiles` | `c2-mythic` | [SKILL.md](plugins/c2-mythic/skills/mythic-profiles/SKILL.md) |
 | `mythic-translation-containers` | `c2-mythic` | [SKILL.md](plugins/c2-mythic/skills/mythic-translation-containers/SKILL.md) |
+| `mythic-mcp` | `c2-mythic` | [SKILL.md](plugins/c2-mythic/skills/mythic-mcp/SKILL.md) |
 | `openhound-development` | `bloodhound` | [SKILL.md](plugins/bloodhound/skills/openhound-development/SKILL.md) |
 | `electron-app-audit` | `payloads` | [SKILL.md](plugins/payloads/skills/electron-app-audit/SKILL.md) |
 | `electron-candidate-discovery` | `payloads` | [SKILL.md](plugins/payloads/skills/electron-candidate-discovery/SKILL.md) |
@@ -180,7 +187,6 @@ npx skills add /Users/<user>/Projects/skills --list
 | `finding-report` | `report-drafting` | [SKILL.md](plugins/report-drafting/skills/finding-report/SKILL.md) |
 | `ghostwriter-mcp` | `report-drafting` | [SKILL.md](plugins/report-drafting/skills/ghostwriter-mcp/SKILL.md) |
 | `ghostwriter-oplog` | `report-drafting` | [SKILL.md](plugins/report-drafting/skills/ghostwriter-oplog/SKILL.md) |
-| `source-research` | `workflows-research` | [SKILL.md](plugins/workflows-research/skills/source-research/SKILL.md) |
 | `binary-ninja-mcp-analysis` | `reverse-engineering` | [SKILL.md](plugins/reverse-engineering/skills/binary-ninja-mcp-analysis/SKILL.md) |
 | `ghidra-mcp-analysis` | `reverse-engineering` | [SKILL.md](plugins/reverse-engineering/skills/ghidra-mcp-analysis/SKILL.md) |
 | `sccm-recon` | `ops-sccm` | [SKILL.md](plugins/ops-sccm/skills/sccm-recon/SKILL.md) |
@@ -204,9 +210,11 @@ npx skills add /Users/<user>/Projects/skills --list
 
 ## Standalone Skills
 
-| Skill | Path |
-|---|---|
-| - | No standalone skills currently live under `skills/`. |
+No standalone skills currently live under `skills/` in v2.
+
+Moved during Skills OS v2 implementation:
+
+- `planning-collab-brainstorm` -> [`plugins/base-planning/skills/planning-collab-brainstorm/`](plugins/base-planning/skills/planning-collab-brainstorm/)
 
 ## Agents
 
@@ -243,3 +251,4 @@ npx skills add /Users/<user>/Projects/skills --list
 | `ghostwriter` | `report-drafting` | Configure directly in Codex with `uv --directory /path/to/GhostWriterMCP run python -m ghostwritermcp.server`. |
 | `binary_ninja_mcp` | `reverse-engineering` | Configure directly in Codex with `npx -y binary-ninja-mcp --host localhost --port 9009` after installing `fosdickio/binary_ninja_mcp` in Binary Ninja. |
 | `ghidra` | `reverse-engineering` | Configure directly in Codex with the command or endpoint documented by your Ghidra MCP server. |
+| `mythicmcp` | `c2-mythic` | Configure directly in Codex with `mythicmcp` or `uv run --directory /path/to/mythicmcp mythicmcp`. |

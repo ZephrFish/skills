@@ -1,0 +1,32 @@
+{
+  "name": "base-handoff",
+  "version": "0.1.0",
+  "description": "Handoff, context preservation, resume-later, and continuation workflows for all Skills OS users.",
+  "author": {
+    "name": "SpecterOps"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "codex",
+    "specterops",
+    "skills-os",
+    "base",
+    "handoff"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Base Handoff",
+    "shortDescription": "Handoff, context preservation, resume-later, and continuation workflows for all Skills OS users.",
+    "longDescription": "Handoff, context preservation, resume-later, and continuation workflows for all Skills OS users.",
+    "developerName": "SpecterOps",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Base Handoff for its Skills OS workflows."
+    ],
+    "brandColor": "#2C2677"
+  }
+}

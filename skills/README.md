@@ -1,11 +1,23 @@
 # Standalone Skills
 
-This directory is for standalone skills that should be discoverable by `npx skills`.
+This directory is reserved for standalone skills that should be discoverable without installing a full plugin.
 
-Use this path only for skills that can work without full plugin installation.
+Use this path only for skills that can work without plugin-owned resources or role/profile installation.
 
 ```text
 skills/<skill-name>/SKILL.md
 ```
 
-If a workflow depends on plugin-only behavior such as MCP configuration, Claude slash commands, hooks, or Codex app mappings, package it under `plugins/<plugin-name>/skills/` instead and document that full plugin installation is required.
+If a workflow depends on plugin-owned resources, profile packaging, MCP configuration, app mappings, or Skills OS role defaults, package it under:
+
+```text
+plugins/<plugin-name>/skills/<skill-name>/SKILL.md
+```
+
+## Current standalone skills
+
+No standalone skills are currently assigned here in v2.
+
+Moved during Skills OS v2 implementation:
+
+- `planning-collab-brainstorm` -> `plugins/base-planning/skills/planning-collab-brainstorm/`

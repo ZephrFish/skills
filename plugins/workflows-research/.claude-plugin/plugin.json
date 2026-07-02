@@ -1,8 +1,15 @@
 {
   "name": "workflows-research",
-  "description": "Source-backed research and synthesis workflows for Specter Codex.",
+  "description": "Deprecated v1 research workflow plugin; source-research moved to base-research for Skills OS v2.",
   "version": "0.1.0",
   "author": {
     "name": "SpecterOps"
+  },
+  "interface": {
+    "shortDescription": "Deprecated; use Base Research.",
+    "longDescription": "Deprecated v1 research workflow plugin. The source-research skill moved to plugins/base-research for Skills OS v2.",
+    "defaultPrompt": [
+      "Use Base Research for source-research in Skills OS v2."
+    ]
   }
 }

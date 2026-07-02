@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Submission Prep"
+  short_description: "Prepare skills for repository review"
+  default_prompt: "Use $skill-submission-prep to prepare this skill for repository review."

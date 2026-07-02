@@ -1,7 +1,7 @@
 {
   "name": "bloodhound",
   "version": "0.1.0",
-  "description": "BloodHound, AzureHound, GitHound/JamfHound/OktaHound OpenGraph attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging.",
+  "description": "BloodHound, AzureHound, OpenHound GitHub, JamfHound/OpenHound Jamf, and OktaHound/OpenHound Okta attack-path query workflows, SCIM bridge references, and optional BloodHound MCP packaging.",
   "author": {
     "name": "SpecterOps"
   },
@@ -12,8 +12,8 @@
     "bloodhound",
     "azurehound",
     "openhound",
+    "openhound-github",
     "attack-paths",
-    "githound",
     "jamfhound",
     "oktahound",
     "scim",
@@ -23,7 +23,7 @@
   "interface": {
     "displayName": "BloodHound",
     "shortDescription": "BloodHound, OpenHound, and SCIM attack-path workflows.",
-    "longDescription": "Focused workflows for BloodHound AD/ADCS, AzureHound/Entra ID, GitHound/OpenHound GitHub, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, SCIM bridge analysis, saved-query adaptation, collector-aware references, and optional BloodHound MCP-assisted graph analysis.",
+    "longDescription": "Focused workflows for BloodHound AD/ADCS, AzureHound/Entra ID, OpenHound GitHub, JamfHound/OpenHound Jamf, OktaHound/OpenHound Okta, SCIM bridge analysis, saved-search adaptation, collector-aware references, and optional BloodHound MCP-assisted graph analysis.",
     "developerName": "SpecterOps",
     "category": "Security",
     "capabilities": [
@@ -33,7 +33,7 @@
     "defaultPrompt": [
       "Use BloodHound to triage an AD or ADCS attack path.",
       "Use AzureHound to analyze Entra ID and Azure privilege paths.",
-      "Use OpenHound GitHub/Jamf/Okta workflows with SCIM references to adapt saved queries for OpenGraph attack-path analysis."
+      "Use OpenHound GitHub/Jamf/Okta workflows with SCIM references to adapt saved searches for OpenGraph attack-path analysis."
     ],
     "brandColor": "#8E92EB",
     "composerIcon": "./assets/icon.png",

@@ -1,10 +1,10 @@
 # Example Cypher Patterns
 
-These examples are read-only starting points. Prefer the referenced saved-query snapshot when it exists, then adapt parameters, labels, and edge filters to the target graph.
+These examples are read-only starting points. Prefer the referenced saved-search snapshot when it exists, then adapt parameters, labels, and edge filters to the target graph.
 
 ## GitHub external identities without SCIM
 
-Snapshot: `references/query-snapshots/openhound-github/saved-queries/external-identities-without-scim.json`
+Snapshot: `references/query-snapshots/openhound-github/saved-searches/external-identities-without-scim.json`
 
 ```cypher
 MATCH (ei:GH_ExternalIdentity)
@@ -13,11 +13,11 @@ RETURN ei
 LIMIT 1000
 ```
 
-Use this to find GitHub external identities that may not be managed by SCIM deprovisioning. Validate enterprise/org SCIM configuration and collector coverage before treating results as unmanaged access.
+Use this to find GitHub external identities that may not be managed by SCIM deprovisioning. Validate organization SCIM configuration and collector coverage before treating results as unmanaged access.
 
 ## GitHub hybrid identities
 
-Snapshot: `references/query-snapshots/openhound-github/saved-queries/hybrid-identities.json`
+Snapshot: `references/query-snapshots/openhound-github/saved-searches/hybrid-identities.json`
 
 ```cypher
 MATCH p=(s)-[]->(d:GH_User)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Planning Collab Brainstorm"
+  short_description: "Turn Markdown notes into plans"
+  default_prompt: "Use $planning-collab-brainstorm to turn my rough Markdown idea notes into a plan, design doc, roadmap, and implementation brief."

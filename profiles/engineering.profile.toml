@@ -1,0 +1,24 @@
+schema_version = "0.1"
+name = "engineering"
+display_name = "Engineering"
+description = "Engineering profile for developer review, QA, repository workflow, and project scaffolding capabilities."
+status = "draft"
+
+[profile]
+inherits = [
+  "base",
+]
+
+[plugins]
+required = [
+  "developer-code-review-and-qa",
+  "workflows-development",
+]
+
+[agents]
+optional = [
+  "architect",
+  "code-reviewer",
+  "qa-tester",
+  "planner",
+]

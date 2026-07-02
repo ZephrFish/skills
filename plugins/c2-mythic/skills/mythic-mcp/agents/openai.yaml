@@ -1,0 +1,7 @@
+interface:
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.png
+  brand_color: '#00B36B'
+  display_name: "Mythic MCP"
+  short_description: "Operate Mythic C2 through MythicMCP tools."
+  default_prompt: "Use $mythic-mcp to configure MythicMCP and operate Mythic callbacks, tasks, files, payloads, and C2 profiles."

@@ -1,7 +1,7 @@
 {
   "name": "code-review-and-qa",
   "version": "0.1.0",
-  "description": "Code review and web application QA workflows for Specter Codex.",
+  "description": "Deprecated v1 aggregate plugin split in Skills OS v2; use developer-code-review-and-qa and vulnerability-focused-code-review.",
   "author": {
     "name": "SpecterOps"
   },
@@ -15,9 +15,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Code Review and QA",
-    "shortDescription": "Code review and web application QA workflows.",
-    "longDescription": "Focused workflows for reviewing code changes, exercising web apps, and validating implementation quality before merge.",
+    "displayName": "Code Review and QA (Deprecated)",
+    "shortDescription": "Deprecated aggregate; use split v2 plugins.",
+    "longDescription": "Deprecated Skills OS v1 aggregate retained as a transition marker. Developer QA skills moved to developer-code-review-and-qa; vulnerability review moved to vulnerability-focused-code-review.",
     "developerName": "SpecterOps",
     "category": "Productivity",
     "capabilities": [
@@ -25,10 +25,8 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Use Code Review and QA to review this diff.",
-      "Use Code Review and QA to review C++ code against the C++ Core Guidelines.",
-      "Use Code Review and QA to smoke test a web app.",
-      "Use Code Review and QA before merging this branch."
+      "Use developer-code-review-and-qa for Engineering review and QA workflows.",
+      "Use vulnerability-focused-code-review for security/offensive code review workflows."
     ],
     "brandColor": "#00B36B",
     "composerIcon": "./assets/icon.png",
