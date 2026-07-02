@@ -2,6 +2,20 @@
 
 Reusable agent skills, plugins, and agent definitions for SpecterOps.
 
+## Role/Profile Installer
+
+Install an opinionated Skills OS role/profile for Codex with the `uv`-run installer:
+
+```bash
+uv run scripts/skills-os.py list-profiles
+uv run scripts/skills-os.py show research
+uv run scripts/skills-os.py install research
+```
+
+The installer resolves profile inheritance, installs required Codex plugins, and offers a checkbox selector for optional agents. Selected agents are copied to `~/.codex/company/agents/` and registered in `~/.codex/config.toml`.
+
+See [`docs/profile-installer.md`](docs/profile-installer.md) for dry-run, GitHub source, and non-interactive examples.
+
 ## Use With Claude Code
 
 Each plugin lives under `plugins/<name>/` and includes a Claude Code manifest at `.claude-plugin/plugin.json`.

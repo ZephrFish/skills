@@ -30,3 +30,7 @@ Repo-wide documentation for the Skills OS v2 structure, profile model, role mode
 ### Later
 
 - [ ] Add public-release guidance if the repository is prepared for external distribution.
+
+## Installer
+
+- [Profile installer](profile-installer.md)

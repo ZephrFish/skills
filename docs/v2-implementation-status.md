@@ -75,9 +75,26 @@ Validation passed for the included pre-existing plugin/skill changes: affected p
 
 Follow-up: the root README skill links have been refreshed for moved v2 skills; the broader root plugin/profile catalog still needs a final v2-oriented refresh after the remaining moves settle.
 
+## Phase 6 status — Role/profile installer
+
+Completed in this pass:
+
+- Added `scripts/skills-os.py`, a PEP 723 `uv` script for installing Skills OS profiles.
+- Added `list-profiles`, `show`, and `install` commands.
+- Implemented profile inheritance resolution, marketplace/plugin validation, Codex plugin installation, dry-run mode, and stop-on-failure command execution.
+- Added optional agent selection and registration support:
+  - rich checkbox selector via `questionary`;
+  - recommended-agent labels from profile manifests;
+  - unchecked defaults;
+  - selected agents copy to `~/.codex/company/agents/`;
+  - selected agents register in `~/.codex/config.toml` with config backup before edits.
+- Added `docs/profile-installer.md` and updated README/profile schema docs.
+
+Validation passed for script compilation, profile listing/showing, dry-run installs for all launch profiles, selected-agent dry-run registration, helper behavior, and installer documentation references.
+
 ## Next implementation steps
 
 - Refresh the root README plugin/profile catalog so it fully reflects the v2 layout.
 - Finish cleanup decisions for deprecated aggregate plugins after marketplace/discovery review.
 - Decide whether and when to update marketplace/discovery plumbing after existing uncommitted marketplace changes are reviewed.
-- Add validation tooling for profile manifests and plugin references.
+- Add committed validation tooling/CI checks for profile manifests and plugin references.

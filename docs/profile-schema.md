@@ -29,3 +29,19 @@ Rules:
 - Profiles do not enumerate individual skills.
 - All agents are optional.
 - No `[install]`, `[ownership]`, `[docs]`, `kind`, `roles`, `workflows`, or `scripts` sections.
+
+## Installer behavior
+
+The role/profile installer consumes this schema directly:
+
+```bash
+uv run scripts/skills-os.py install research
+```
+
+Installer rules:
+
+- Resolve `[profile].inherits` before installing plugins.
+- Install only `[plugins].required`; profiles do not install individual skills.
+- Treat `[agents].optional` as recommendations for the checkbox selector.
+- Leave recommended agents unchecked by default; install only agents selected by the user or passed through explicit flags.
+- Register selected agents in Codex config after copying their TOML files to the configured agent directory.
