@@ -1,0 +1,8 @@
+{
+  "name": "tradecraft-linux",
+  "description": "Linux process injection, execution, persistence, and operator validation workflows.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SpecterOps"
+  }
+}

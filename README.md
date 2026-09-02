@@ -128,11 +128,11 @@ request expectations, and where to ask for help.
 | [social-engineering](plugins/social-engineering/README.md) | Yes | Yes | - | Social engineering research and phishing pretext workflows. |
 | [ludus](plugins/ludus/README.md) | Yes | Yes | - | Ludus cyber range configuration and management skill with full API, CLI, and deployment references |
 | [c2-mythic](plugins/c2-mythic/README.md) | Yes | Yes | - | Mythic C2 framework implant and C2 profile development workflows with agent message protocols, payload type definitions, and listener/profile guidance. |
-| [tradecraft-windows](plugins/tradecraft-windows/README.md) | Yes | - | - | Windows execution, persistence, and COM proxy validation workflows. |
+| [tradecraft-windows](plugins/tradecraft-windows/README.md) | Yes | Yes | - | Windows execution, persistence, and COM proxy validation workflows. |
 | [ops-adcs](plugins/ops-adcs/README.md) | Planned | - | - | Active Directory Certificate Services assessment and attack-path validation workflows. Planned; no capability is currently packaged. |
 | [ops-mssql](plugins/ops-mssql/README.md) | Planned | - | - | Microsoft SQL Server reconnaissance, privilege mapping, and assessment workflows. Planned; no capability is currently packaged. |
-| [tradecraft-mac](plugins/tradecraft-mac/README.md) | Yes | - | - | macOS execution, persistence, and operator validation workflows. |
-| [tradecraft-linux](plugins/tradecraft-linux/README.md) | Yes | - | - | Linux process injection, execution, persistence, and operator validation workflows. |
+| [tradecraft-mac](plugins/tradecraft-mac/README.md) | Yes | Yes | - | macOS execution, persistence, and operator validation workflows. |
+| [tradecraft-linux](plugins/tradecraft-linux/README.md) | Yes | Yes | - | Linux process injection, execution, persistence, and operator validation workflows. |
 | [c2-cobaltstrike](plugins/c2-cobaltstrike/README.md) | Yes | Yes | - | Cobalt Strike Aggressor Script, Sleep, BOF loader, and Malleable C2 profile workflows. |
 | [bloodhound-development](plugins/bloodhound-development/README.md) | Yes | Yes | - | Operate isolated BHE environments, deliver BHE/BHCE changes, and run focused enterprise review and validation workflows. |
 | [go-review](plugins/go-review/README.md) | Yes | Yes | - | Security review for Go packages and services covering trust boundaries, injection, filesystem, crypto, concurrency, and unsafe/cgo edges |

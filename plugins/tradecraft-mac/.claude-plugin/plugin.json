@@ -1,0 +1,8 @@
+{
+  "name": "tradecraft-mac",
+  "description": "macOS execution, persistence, and operator validation workflows.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SpecterOps"
+  }
+}

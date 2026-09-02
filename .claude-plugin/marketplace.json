@@ -135,6 +135,27 @@
       "category": "security"
     },
     {
+      "name": "tradecraft-windows",
+      "source": "./plugins/tradecraft-windows",
+      "description": "Windows execution, persistence, and COM proxy validation workflows.",
+      "version": "0.1.0",
+      "category": "security"
+    },
+    {
+      "name": "tradecraft-mac",
+      "source": "./plugins/tradecraft-mac",
+      "description": "macOS execution, persistence, and operator validation workflows.",
+      "version": "0.1.0",
+      "category": "security"
+    },
+    {
+      "name": "tradecraft-linux",
+      "source": "./plugins/tradecraft-linux",
+      "description": "Linux process injection, execution, persistence, and operator validation workflows.",
+      "version": "0.1.0",
+      "category": "security"
+    },
+    {
       "name": "c2-cobaltstrike",
       "source": "./plugins/c2-cobaltstrike",
       "description": "Cobalt Strike Aggressor Script, Sleep, BOF loader, and Malleable C2 profile workflows.",
