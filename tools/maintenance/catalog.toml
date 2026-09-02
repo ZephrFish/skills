@@ -77,7 +77,7 @@ surfaces = ["codex", "claude"]
 
 [[plugins]]
 name = "tradecraft-windows"
-surfaces = ["codex"]
+surfaces = ["codex", "claude"]
 
 [[plugins]]
 name = "ops-adcs"
@@ -89,11 +89,11 @@ surfaces = ["codex"]
 
 [[plugins]]
 name = "tradecraft-mac"
-surfaces = ["codex"]
+surfaces = ["codex", "claude"]
 
 [[plugins]]
 name = "tradecraft-linux"
-surfaces = ["codex"]
+surfaces = ["codex", "claude"]
 
 [[plugins]]
 name = "c2-cobaltstrike"
